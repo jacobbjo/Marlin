@@ -92,7 +92,7 @@
 
 // Choose the name from boards.h that matches your setup
 #ifndef MOTHERBOARD
-  #define MOTHERBOARD BOARD_BTT_SKR_V1_4
+  #define MOTHERBOARD BOARD_BTT_SKR_V1_4_TURBO
 #endif
 
 /**
@@ -1112,7 +1112,7 @@
   #define Z_MIN_ENDSTOP_INVERTING false // Set to true to invert the logic of the endstop.
 //#else
 //  #define Z_MIN_ENDSTOP_INVERTING true  // Set to true to invert the logic of the endstop.
-#endif
+//#endif
 #define I_MIN_ENDSTOP_INVERTING false // Set to true to invert the logic of the endstop.
 #define J_MIN_ENDSTOP_INVERTING false // Set to true to invert the logic of the endstop.
 #define K_MIN_ENDSTOP_INVERTING false // Set to true to invert the logic of the endstop.
